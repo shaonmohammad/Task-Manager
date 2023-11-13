@@ -1,0 +1,46 @@
+# Ignore IDE files
+.idea/
+
+# Ignore variable files
+*.env
+*.env.local
+*.env.*.local
+
+# Ignore bytecodes or compiled files
+*.pyc
+__pycache__/
+*.class
+*.jar
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated files
+*.min.js
+*.min.css
+
+# Ignore package manager directories
+/node_modules/
+/bower_components/
+
+# Ignore environment configuration files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+
+# Ignore miscellaneous files
+*.swp
